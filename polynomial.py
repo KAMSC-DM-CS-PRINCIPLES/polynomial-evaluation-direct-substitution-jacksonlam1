@@ -16,6 +16,7 @@ def evaluate_polynomial(degree, x, constant_term, *coefficients):
     # TODO: Print step-by-step evaluation (S0, S1, S2, etc.)
     # TODO: Return final polynomial result oko
 
+
 if __name__ == "__main__":
     while True:
         coefficients = ()
