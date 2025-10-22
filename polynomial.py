@@ -1,4 +1,5 @@
 def evaluate_polynomial(degree, x, constant_term, *coefficients):
+<<<<<<< Updated upstream
     # set P and k
     k = 1
     P = constant_term
@@ -12,6 +13,25 @@ def evaluate_polynomial(degree, x, constant_term, *coefficients):
         print(f"P(x)= {P}")
         return int(P)
         
+=======
+    degree = int(input("Degree of the polynomial: "))
+    x = int(input("Value of x: "))
+    constant_term = int(input("Value of constant term: "))
+    P= constant_term
+    for i in range degree:
+
+    k=1
+    while k<=degree:
+        P = P + coefficients[k-1] * (x**k-1)
+        k = k+1
+    print(P)
+
+    # TODO: Implement polynomial evaluation using direct substitution method
+    # TODO: Print step-by-step evaluation (S0, S1, S2, etc.)
+    # TODO: Return final polynomial result
+    pass
+
+>>>>>>> Stashed changes
 if __name__ == "__main__":
     while True:
         coefficients = ()
